@@ -84,33 +84,35 @@ export const ABOUT_CONTENT = {
 
 export const EXPERIENCES = [
   {
-    yearRange: "2023 — Now",
-    title: "Senior Frontend Engineer at TechCorp",
-    location: "Paris, France",
+    yearRange: "Feburary 2022 — April 2024",
+    title: "Freelance Software Developer",
+    location: "Remote, Canada",
     description: [
-      "Leading the development of scalable frontend architecture for enterprise-level applications.",
-      "Collaborating with cross-functional teams to deliver high-quality, user-centric solutions.",
-      "Driving innovation through continuous improvements in performance and UI/UX design."
+      "Developed and designed 10+ responsive websites with React and Next.js, leading to a 30% increase in client online engagement and user satisfaction",
+      "Implemented efficient ETL processes that reduced data loading time by 40%, improving the accuracy and timeliness of data for client operations and decision-making",
+      "Managed MySQL and PostgreSQL databases for 5 projects, optimized cloud applications on AWS and Azure, reducing operational costs by 25% and improving scalability"
     ]
   },
   {
-    yearRange: "2021 — 2023",
-    title: "Frontend Engineer at Startup Inc.",
-    location: "Remote",
+    yearRange: "April 2020 — December 2021",
+    title: "Software Engineer at Msys Technologies",
+    location: "Pune, India",
     description: [
-      "Built dynamic, responsive, and accessible web applications using React, Next.js, and Tailwind CSS.",
-      "Spearheaded frontend optimization efforts, resulting in a 40% performance boost.",
-      "Mentored junior developers and led internal frontend workshops."
+      "Engineered data integration solutions for configuration management systems using Ruby, reducing audit time by 40% and streamlining compliance efforts",
+      "Mitigated non-compliance issues by creating Ruby cookbooks to efficiently oversee specific controls, and improving system reliability by 12%",
+      "Deployed and managed applications using Docker and CI/CD pipelines, optimizing AWS and Azure cloud platforms, resulting in a 30% increase in scalability and a 20% cost reduction",
+      "Led the Chef Compliance team to complete critical tasks in a remote environment, training 4 new hires and receiving the Performance Excellence Award for Q3 2021"
     ]
   },
   {
-    yearRange: "2018 — 2021",
-    title: "Frontend Developer at Creative Solutions",
-    location: "London, UK",
+    yearRange: "June 2018 — March 2020",
+    title: "Associate Software Developer at Allerin Technologies",
+    location: "Mumbai, India",
     description: [
-      "Developed and maintained user interfaces for high-traffic websites.",
-      "Worked closely with designers to implement pixel-perfect designs.",
-      "Optimized websites for SEO and performance, resulting in a 30% increase in traffic."
+      "Directed the development of web applications using Ruby on Rails, CSS, HAML, and JavaScript, employing TDD and agile methodologies, resulting in a 15% improvement in codebase maintainability",
+      "Enhanced user engagement by 40% through jQuery for DOM manipulation, event handling, and A/B testing, and achieved a 16% boost in customer retention",
+      "Improved data processing efficiency by 17% through SQL optimization, including indexing, partitioning, and query tuning",
+      "Developed and integrated automated testing frameworks using RSpec and Jupyter into CI/CD pipelines, achieving over 95% test coverage and ensuring high code quality"
     ]
   }
 ];
