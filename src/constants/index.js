@@ -32,41 +32,46 @@ export const HERO_CONTENT = {
 
 export const PROJECTS = [
   {
-    name: "Streamerzz",
-    description: "Live stream management tool for content creators",
-    image: projects1,
-    link: "https://github.com/your-github/streamerzz"
-  },
-  {
-    name: "NutriTrack",
-    description: "Track your meals and calories with smart AI suggestions",
-    image: projects2,
-    link: "https://github.com/your-github/nutritrack"
-  },
-  {
-    name: "HairRevive",
-    description: "A platform for hair regrowth solutions powered by science",
-    image: projects3,
-    link: "https://github.com/your-github/hairrevive"
-  },
-  {
-    name: "DevDeck",
+    name: "SnapLogo",
     description:
-      "Interactive dashboard for developers to track coding activity",
+      "A user-friendly logo creation tool built with React, enabling quick, customizable logo designs.",
+    image: projects1,
+    link: "https://github.com/patil-swap/SnapLogo"
+  },
+  {
+    name: "Odyssey",
+    description:
+      "An interactive platform to discover and share travel experiences, with a sleek React-based interface.",
+    image: projects2,
+    link: "https://github.com/patil-swap/SnapLogo"
+  },
+  {
+    name: "ClipGenie",
+    description:
+      "A React-powered video management app for easy short video generation, clipping, organization, and sharing.",
+    image: projects3,
+    link: "https://github.com/patil-swap/ClipGenie"
+  },
+  {
+    name: "Ticket Management",
+    description:
+      "A streamlined ticketing system designed for efficient issue tracking and management.",
     image: projects4,
-    link: "https://github.com/your-github/devdeck"
+    link: "https://github.com/patil-swap/Ticket-Management"
   },
   {
-    name: "FitConnect",
-    description: "Fitness social network to connect athletes and trainers",
+    name: "MindScribe",
+    description:
+      "An AI-powered PDF note-taking app that extracts, organizes, and enhances your study materials for smarter, faster learning",
     image: projects5,
-    link: "https://github.com/your-github/fitconnect"
+    link: "https://github.com/patil-swap/MindScribe"
   },
   {
-    name: "WellNest",
-    description: "A wellness app for mental and physical health improvement",
+    name: "Lung and Colon Cancer Detection",
+    description:
+      "A data-driven, Jupyter Notebook project utilizing machine learning for early cancer diagnosis.",
     image: projects6,
-    link: "https://github.com/your-github/wellnest"
+    link: "https://github.com/patil-swap/Lung-Colon-Cancer-Detection"
   }
 ];
 
