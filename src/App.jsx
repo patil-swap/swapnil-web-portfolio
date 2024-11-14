@@ -1,3 +1,4 @@
+import About from "./components/About";
 import BlurBackground from "./components/BlurBackground";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Hero />
         <Projects />
+        <About />
       </main>
     </>
   );
