@@ -5,27 +5,27 @@ import projects4 from "../assets/projects4.webp";
 import projects5 from "../assets/projects5.webp";
 import projects6 from "../assets/projects6.webp";
 
-import person1 from "../assets/person1.webp";
-import person2 from "../assets/person2.webp";
-import person3 from "../assets/person3.webp";
-import person4 from "../assets/person4.webp";
-import person5 from "../assets/person5.webp";
-import person6 from "../assets/person6.webp";
+import clipgenie from "../assets/clipgenie.webp";
+import odyssey from "../assets/odyssey.webp";
+import snaplogo from "../assets/snaplogo.webp";
+import tkt_mgnt from "../assets/tkt_mgnt.webp";
+import cancer_diagnosis from "../assets/cancer_diagnosis.webp";
+import mindscribe from "../assets/mindscribe.webp";
 
 export const LINKS = [
   { href: "#work", label: "Work" },
   { href: "#about", label: "About" },
   { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "Testimonials" },
+  { href: "#insight", label: "Insights" },
   { href: "#contact", label: "Contact" }
 ];
 
 export const HERO_CONTENT = {
   greeting: "Hey there! 🖐️",
   introduction:
-    "I’m Swapnil Patil, a creative FullStack developer, crafting immersive and intuitive web experiences.",
+    "I'm Swapnil Patil, a creative FullStack developer, crafting immersive and intuitive web experiences.",
   description:
-    "I’m currently helping businesses bring their visions to life through interactive digital solutions.",
+    "I'm currently helping businesses bring their visions to life through interactive digital solutions.",
   resumeLinkText: "Download Resume",
   resumeLink: "/resume.pdf"
 };
@@ -78,7 +78,7 @@ export const PROJECTS = [
 export const ABOUT_CONTENT = {
   paragraphs: [
     "I am a full-stack developer with a strong foundation in both frontend and backend technologies, creating dynamic and scalable web applications. My experience spans developing interactive UIs to building robust server-side logic, always ensuring a seamless user experience and efficient performance across the stack.",
-    "I specialize in frameworks and technologies like Ruby on Rails, Django, React, and Next.js, and leverage cloud platforms such as AWS and Azure for scalable deployments. I’ve worked with programming languages like JavaScript, Python, and TypeScript, utilizing them in projects that demonstrate my ability to create versatile and efficient solutions. Passionate about problem-solving, I focus on writing clean, modular code while collaborating with teams to create user-centric solutions that exceed expectations. I’m always seeking new challenges to further enhance my skills and contribute to innovative projects."
+    "I specialize in frameworks and technologies like Ruby on Rails, Django, React, and Next.js, and leverage cloud platforms such as AWS and Azure for scalable deployments. I've worked with programming languages like JavaScript, Python, and TypeScript, utilizing them in projects that demonstrate my ability to create versatile and efficient solutions. Passionate about problem-solving, I focus on writing clean, modular code while collaborating with teams to create user-centric solutions that exceed expectations. I'm always seeking new challenges to further enhance my skills and contribute to innovative projects."
   ]
 };
 
@@ -117,48 +117,48 @@ export const EXPERIENCES = [
   }
 ];
 
-export const TESTIMONIALS = [
+export const INSIGHTS = [
   {
-    name: "Sarah Johnson",
-    title: "Frontend Engineer, Google",
-    feedback:
-      "Jason is one of the most talented developers I've had the pleasure of working with. His skills in frontend development are unparalleled, and his ability to solve complex problems with ease is truly impressive. His leadership and communication make him a standout developer in any team.",
-    image: person1
+    name: "ClipGenie",
+    title: "AI Video Generator Tool",
+    description:
+      "Developing ClipGenie, a video editing app, was a fun yet challenging project. I used React for the front-end and Node.js for the back-end to manage user uploads. One of the biggest hurdles was creating a fast and responsive preview system for users to check their edits. By utilizing Web Workers and HTML5 Video APIs, I managed to offload heavy computations to improve the preview performance, making the app more responsive and user-friendly.",
+    image: clipgenie
   },
   {
-    name: "Michael Anderson",
-    title: "Product Manager, Facebook",
-    feedback:
-      "Jason was instrumental in driving our product forward. His keen eye for detail and ability to work cross-functionally made him an invaluable asset. He consistently delivers top-quality work and elevates the projects he's involved in. He’s a natural leader, and his expertise in frontend technologies is outstanding.",
-    image: person2
+    name: "Odyssey",
+    title: "AI Travel Planning App",
+    description:
+      "When I started Odyssey, a travel planning app, I wanted to integrate Google Maps API with a clean, intuitive user interface. The challenge was to balance complex backend data with a user-friendly front end. I tackled this by building a scalable architecture in React and optimizing the API calls to ensure fast, real-time updates. This project gave me hands-on experience in geolocation services and how to structure data effectively for front-end consumption.",
+    image: odyssey
   },
   {
-    name: "Emily Davis",
-    title: "Lead Designer, Amazon",
-    feedback:
-      "Working with Jason has been a phenomenal experience. His deep understanding of both design and development allowed us to push the boundaries of what we could achieve. His creative problem-solving abilities and commitment to quality are second to none.",
-    image: person3
+    name: "SnapLogo",
+    title: "Real-Time Logo Generator",
+    description:
+      "In building SnapLogo, I combined my interest in design and coding. The biggest obstacle was integrating Tailwind CSS with custom animations in React. It took some time to fine-tune the styles to be fully responsive, but I eventually achieved a fluid and scalable interface. Through this project, I strengthened my front-end development skills and became more comfortable with design systems, ensuring consistency and user satisfaction.",
+    image: snaplogo
   },
   {
-    name: "David Lee",
-    title: "Senior Developer, Microsoft",
-    feedback:
-      "Jason's contribution to our team was nothing short of amazing. His technical knowledge, combined with his passion for creating user-friendly and scalable applications, made a significant impact on the success of our product. He’s always willing to go the extra mile to ensure the best outcome.",
-    image: person4
+    name: "Ticket Management App",
+    title: "Customer Support Ticket System",
+    description:
+      "With my Ticket Management App, I aimed to streamline the process of managing customer support tickets. The main challenge was creating a robust backend using Django and connecting it to a React frontend. Ensuring smooth communication between the two frameworks was tricky at first, but implementing RESTful APIs and efficient data models solved the issue. This project helped me improve my skills in backend development while learning about the complexities of managing real-time data.",
+    image: tkt_mgnt
   },
   {
-    name: "Laura Martinez",
-    title: "CTO, Shopify",
-    feedback:
-      "Jason brought a level of expertise and professionalism to our team that was greatly appreciated. His focus on scalability and clean code ensured that our platform could handle large traffic loads without compromising performance. His work ethic and collaboration skills are impeccable.",
-    image: person5
+    name: "Lung and Colon Cancer Detection (Capstone Project)",
+    title: "Histopathological Image Analysis for Cancer Diagnosis",
+    description:
+      "For my Lung and Colon Cancer Detection project, I focused on building a predictive model using Jupyter Notebook and Python. The challenge was dealing with large datasets and ensuring that the model was both accurate and efficient. I spent a significant amount of time experimenting with various machine learning algorithms, and the final model achieved an impressive accuracy rate. This project was a major step in expanding my knowledge of data science and machine learning.",
+    image: cancer_diagnosis
   },
   {
-    name: "Chris Brown",
-    title: "Co-founder, Stripe",
-    feedback:
-      "Jason combines technical proficiency with excellent leadership skills. He was a key part of our success, helping us build a robust and scalable product. His attention to detail and ability to manage teams made him an invaluable part of the company.",
-    image: person6
+    name: "MindScribe (Future Project)",
+    title: "AI-Powered Note-Taking App",
+    description:
+      "I'm in the early stages of building MindScribe, an AI-powered note-taking app, which will allow users to highlight key points in PDFs and summarize them. The biggest challenge will be integrating LangChain for NLP capabilities while ensuring the UI is intuitive and easy to use. I'm currently working on the data flow and backend architecture, making sure it's scalable for future features like voice-to-text. This project will push me to further develop my skills in AI and cloud computing.",
+    image: mindscribe
   }
 ];
 
