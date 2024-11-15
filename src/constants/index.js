@@ -27,7 +27,7 @@ export const HERO_CONTENT = {
   description:
     "I'm currently helping businesses bring their visions to life through interactive digital solutions.",
   resumeLinkText: "Download Resume",
-  resumeLink: "/resume.pdf"
+  resumeLink: "/Swapnil_Patil_Resume.pdf"
 };
 
 export const PROJECTS = [
@@ -166,26 +166,26 @@ export const CONTACT_CONTENT = {
   headline: "LET'S WORK ON SOMETHING GREAT",
   description:
     "I'm excited to collaborate on projects that push boundaries and create meaningful impact. Let's build something innovative and exceptional together.",
-  email: "jason@example.com",
+  email: "swapnilkpatil96@gmail.com",
   socialLinks: [
     {
-      platform: "Twitter",
-      url: "https://twitter.com/yourprofile",
-      ariaLabel: "Follow me on Twitter",
-      icon: "RiTwitterXFill"
-    },
-    {
       platform: "GitHub",
-      url: "https://github.com/yourprofile",
+      url: "https://github.com/patil-swap",
       ariaLabel: "View my GitHub profile",
       icon: "RiGithubFill"
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://linkedin.com/in/s-k-patil",
       ariaLabel: "Connect with me on LinkedIn",
       icon: "RiLinkedinFill"
+    },
+    {
+      platform: "LeetCode",
+      url: "https://leetcode.com/u/swap_nil_17/",
+      ariaLabel: "Explore my coding journey on LeetCode.",
+      icon: "RiCodeBoxFill"
     }
   ],
-  footerText: `© ${new Date().getFullYear()} Jason Root. All rights reserved.`
+  footerText: `© ${new Date().getFullYear()} Swapnil Patil. All rights reserved.`
 };
