@@ -27,7 +27,7 @@ export const HERO_CONTENT = {
   description:
     "I'm currently helping businesses bring their visions to life through interactive digital solutions.",
   resumeLinkText: "Download Resume",
-  resumeLink: "/Swapnil_Patil_Resume.pdf"
+  resumeLink: "/Swapnil Patil Resume.pdf"
 };
 
 export const PROJECTS = [
