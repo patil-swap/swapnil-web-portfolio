@@ -37,7 +37,7 @@ const Experience = () => {
         className="space-y-10"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={containerVariant}
       >
         {EXPERIENCES.map((experience, index) => (

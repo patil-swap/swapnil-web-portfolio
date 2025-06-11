@@ -84,6 +84,16 @@ export const ABOUT_CONTENT = {
 
 export const EXPERIENCES = [
   {
+    yearRange: "May 2025 — Present",
+    title: "Full Stack Developer at Weevva Systems",
+    location: "St John's, Canada",
+    description: [
+      "Designed and optimized ML models using Python, TensorFlow, and PyTorch to automate profile matching, improving accuracy and cutting manual reviews by 25%",
+      "Built backend services with FastAPI, PostgreSQL, and GraphQL supporting 5,000 requests per minute with 99.5% uptime",
+      "Created a proprietary AI/ML matching engine that increased match accuracy by 15-20% over baseline, improving successful matches"
+    ]
+  },
+  {
     yearRange: "Feburary 2022 — April 2024",
     title: "Freelance Software Developer",
     location: "Remote, Canada",
@@ -154,7 +164,7 @@ export const INSIGHTS = [
     image: cancer_diagnosis
   },
   {
-    name: "MindScribe (Future Project)",
+    name: "MindScribe",
     title: "AI-Powered Note-Taking App",
     description:
       "I'm in the early stages of building MindScribe, an AI-powered note-taking app, which will allow users to highlight key points in PDFs and summarize them. The biggest challenge will be integrating LangChain for NLP capabilities while ensuring the UI is intuitive and easy to use. I'm currently working on the data flow and backend architecture, making sure it's scalable for future features like voice-to-text. This project will push me to further develop my skills in AI and cloud computing.",
