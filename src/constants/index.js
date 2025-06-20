@@ -16,7 +16,7 @@ export const LINKS = [
   { href: "#work", label: "Work" },
   { href: "#about", label: "About" },
   { href: "#experience", label: "Experience" },
-  { href: "#insight", label: "Insights" },
+  { href: "#mvp-cards", label: "MVP Ideas" },
   { href: "#contact", label: "Contact" }
 ];
 
@@ -127,48 +127,87 @@ export const EXPERIENCES = [
   }
 ];
 
-export const INSIGHTS = [
+export const MVP_CARDS = [
   {
-    name: "ClipGenie",
-    title: "AI Video Generator Tool",
-    description:
-      "Developing ClipGenie, a video editing app, was a fun yet challenging project. I used React for the front-end and Node.js for the back-end to manage user uploads. One of the biggest hurdles was creating a fast and responsive preview system for users to check their edits. By utilizing Web Workers and HTML5 Video APIs, I managed to offload heavy computations to improve the preview performance, making the app more responsive and user-friendly.",
-    image: clipgenie
+    title:"PDF to Dataset Converter",
+    problem:"Training LLMs on custom data is powerful, but turning PDFs into usable datasets is messy.",
+    idea:"A tool to upload PDFs, extract content, clean it, and export a structured dataset ready for fine-tuning.",
+    target_user:"Students, AI hobbyists, and devs building niche LLM-based tools.",
+    mvp: [
+      "Upload PDFs",
+      "Extract text (ignore headers/footers)",
+      "Clean, chunk, and format",
+      "Export to JSON/CSV"
+    ],
+    stack: ["React", "FastAPI", "PyMuPDF or PDFPlumber"]
   },
   {
-    name: "Odyssey",
-    title: "AI Travel Planning App",
-    description:
-      "When I started Odyssey, a travel planning app, I wanted to integrate Google Maps API with a clean, intuitive user interface. The challenge was to balance complex backend data with a user-friendly front end. I tackled this by building a scalable architecture in React and optimizing the API calls to ensure fast, real-time updates. This project gave me hands-on experience in geolocation services and how to structure data effectively for front-end consumption.",
-    image: odyssey
+    title:"AI Prompt Builder",
+    problem:"Most people don't know how to write effective prompts. They're vague, messy, or just too long.",
+    idea:"A tool that helps you build better prompts by asking guiding questions and structuring your input.",
+    target_user:"Junior devs, students, and anyone experimenting with GPT.",
+    mvp: [
+      "Input your use case",
+      "Answer guided questions (output type, tone, format)",
+      "Auto-generate prompt",
+      "Option to test it with GPT"
+    ],
+    stack: ["React", "OpenAI API", "Prompt templates"]
   },
   {
-    name: "SnapLogo",
-    title: "Real-Time Logo Generator",
-    description:
-      "In building SnapLogo, I combined my interest in design and coding. The biggest obstacle was integrating Tailwind CSS with custom animations in React. It took some time to fine-tune the styles to be fully responsive, but I eventually achieved a fluid and scalable interface. Through this project, I strengthened my front-end development skills and became more comfortable with design systems, ensuring consistency and user satisfaction.",
-    image: snaplogo
+    title:"CVE Radar Lite",
+    problem:"Security vulnerabilities (CVEs) are published daily, but it's hard to filter what's relevant to your stack.",
+    idea:"A filtered CVE tracker that focuses only on high-severity issues in technologies you care about.",
+    target_user:"Indie devs, junior engineers, students learning security.",
+    mvp: [
+      "Pull CVEs from NVD",
+      "Filter by CVSS score, keywords, or vendor",
+      "Show summary + patch link"
+    ],
+    stack: ["Next.js", "FastAPI", "NVD API"]
   },
   {
-    name: "Ticket Management App",
-    title: "Customer Support Ticket System",
-    description:
-      "With my Ticket Management App, I aimed to streamline the process of managing customer support tickets. The main challenge was creating a robust backend using Django and connecting it to a React frontend. Ensuring smooth communication between the two frameworks was tricky at first, but implementing RESTful APIs and efficient data models solved the issue. This project helped me improve my skills in backend development while learning about the complexities of managing real-time data.",
-    image: tkt_mgnt
+    title:"ReadTick",
+    problem:"Many people want to read more but struggle to stay consistent. Most reading apps track progress but don't help build the habit itself.",
+    idea:"A minimalist tool to help users commit to daily reading, track streaks, and gently nudge them to keep going.",
+    target_user:"Students, professionals, and casual readers trying to build a sustainable reading habit.",
+    mvp: [
+      "Sign in with email",
+      "Add books (title only or upload PDF)",
+      "Set a daily read-time goal (e.g., 15 minutes)",
+      "Daily prompt: 'Do you want to read today?'",
+      "Start timer when user clicks 'Read Now'",
+      "After time is up, prompt: 'Want to keep reading?'",
+      "Track and display reading streak"
+    ],
+    stack: ["React", "Supabase", "Firebase Messaging"]
   },
   {
-    name: "Lung and Colon Cancer Detection (Capstone Project)",
-    title: "Histopathological Image Analysis for Cancer Diagnosis",
-    description:
-      "For my Lung and Colon Cancer Detection project, I focused on building a predictive model using Jupyter Notebook and Python. The challenge was dealing with large datasets and ensuring that the model was both accurate and efficient. I spent a significant amount of time experimenting with various machine learning algorithms, and the final model achieved an impressive accuracy rate. This project was a major step in expanding my knowledge of data science and machine learning.",
-    image: cancer_diagnosis
+    title:"ThinkLog",
+    problem:"Journaling helps with focus and mental clarity, but most people drop off because it feels like a chore.",
+    idea:"A minimalist journal that asks one thoughtful question per day and encourages short, consistent reflection.",
+    target_user:"Students, developers, or anyone juggling stress and decisions.",
+    mvp: [
+      "Sign in",
+      "One daily prompt (e.g., 'What went right today?')",
+      "Short answer limit (e.g., 280 characters)",
+      "Calendar view to revisit past entries",
+      "Private, no sharing or social features"
+    ],
+    stack: ["Next.js", "Supabase", "LocalStorage fallback"]
   },
   {
-    name: "MindScribe",
-    title: "AI-Powered Note-Taking App",
-    description:
-      "I'm in the early stages of building MindScribe, an AI-powered note-taking app, which will allow users to highlight key points in PDFs and summarize them. The biggest challenge will be integrating LangChain for NLP capabilities while ensuring the UI is intuitive and easy to use. I'm currently working on the data flow and backend architecture, making sure it's scalable for future features like voice-to-text. This project will push me to further develop my skills in AI and cloud computing.",
-    image: mindscribe
+    title:"MealPlan Micro",
+    problem:"Most meal planning tools are bloated. Students and busy folks just need a quick way to plan basic meals and prep.",
+    idea:"A barebones planner to schedule simple meals and keep track of ingredients - without the fluff.",
+    target_user:"Students, solo developers, or anyone trying to avoid impulsive takeout.",
+    mvp: [
+      "Add meals by day and time (e.g., lunch, dinner)",
+      "Attach recipe links or notes",
+      "Auto-generate shopping list",
+      "Daily reminder: 'Here's your meal plan for today'"
+    ],
+    stack: ["React", "Supabase or Firebase", "Browser notifications"]
   }
 ];
 

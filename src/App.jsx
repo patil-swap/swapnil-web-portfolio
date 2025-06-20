@@ -3,7 +3,7 @@ import BlurBackground from "./components/BlurBackground";
 import Contacts from "./components/Contacts";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
-import Insight from "./components/Insight";
+import MvpCards from "./components/MvpCards";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 
@@ -18,7 +18,7 @@ function App() {
         <Projects />
         <About />
         <Experience />
-        <Insight />
+        <MvpCards />
         <Contacts />
       </main>
     </>
