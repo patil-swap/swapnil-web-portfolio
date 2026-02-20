@@ -56,7 +56,6 @@ const Hero = () => {
           <motion.a
             className="bg-stone-50 text-stone-900 p-3 lg:p-4 mt-8 inline-block rounded-2xl"
             href={HERO_CONTENT.resumeLink}
-            download
             rel="noopener noreferrer"
             target="_blank"
             variants={textVariants}

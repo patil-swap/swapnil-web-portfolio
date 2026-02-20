@@ -26,8 +26,8 @@ export const HERO_CONTENT = {
     "I'm Swapnil Patil, a creative FullStack developer, crafting immersive and intuitive web experiences.",
   description:
     "I'm currently helping businesses bring their visions to life through interactive digital solutions.",
-  resumeLinkText: "Download Resume",
-  resumeLink: "/Swapnil Patil Resume.pdf"
+  resumeLinkText: "View Resume",
+  resumeLink: "/Swapnil Patil - Full Stack Engineer.pdf"
 };
 
 export const PROJECTS = [
@@ -84,23 +84,13 @@ export const ABOUT_CONTENT = {
 
 export const EXPERIENCES = [
   {
-    yearRange: "May 2025 — Present",
+    yearRange: "May 2025 — January 2026",
     title: "Full Stack Developer at Weevva Systems",
     location: "St John's, Canada",
     description: [
-      "Designed and optimized ML models using Python, TensorFlow, and PyTorch to automate profile matching, improving accuracy and cutting manual reviews by 25%",
-      "Built backend services with FastAPI, PostgreSQL, and GraphQL supporting 5,000 requests per minute with 99.5% uptime",
-      "Created a proprietary AI/ML matching engine that increased match accuracy by 15-20% over baseline, improving successful matches"
-    ]
-  },
-  {
-    yearRange: "Feburary 2022 — April 2024",
-    title: "Freelance Software Developer",
-    location: "Remote, Canada",
-    description: [
-      "Developed and designed 10+ responsive websites with React and Next.js, leading to a 30% increase in client online engagement and user satisfaction",
-      "Implemented efficient ETL processes that reduced data loading time by 40%, improving the accuracy and timeliness of data for client operations and decision-making",
-      "Managed MySQL and PostgreSQL databases for 5 projects, optimized cloud applications on AWS and Azure, reducing operational costs by 25% and improving scalability"
+      "Designed and maintained scalable full-stack applications with AI-driven features, improving automation throughput and reducing manual workflows by roughly 20%",
+      "Developed and optimized APIs, data pipelines, and model-inference services using FastAPI and PostgreSQL, cutting average response times by 30-40% under peak use",
+      "Built and maintained front-end features with React, Next.js and TailwindCSS, increasing engagement on AI-powered UI components by 10-15% based on usage analytics"
     ]
   },
   {
