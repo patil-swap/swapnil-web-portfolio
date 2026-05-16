@@ -41,17 +41,28 @@ const Projects = () => {
               alt={project.name}
               className="absolute inset-0 w-full h-full object-cover transition-opacity duration-300"
             />
-            <div className="relative z-20 p-6 flex flex-col justify-between h-full bg-black/30 text-white">
-              <h2 className="text-2xl font-medium mb-4">{project.name}</h2>
-              <div className="flex flex-col justify-between">
-                <p className="mb-4 flex-grow text-2xl">{project.description}</p>
+            <div className="relative z-20 p-6 flex flex-col justify-end h-full bg-black/50 text-white">
+              <h2 className="text-2xl font-medium mb-2">{project.name}</h2>
+              <p className="mb-2 text-sm text-stone-200">
+                <span className="font-semibold text-white">Stack:</span> {project.stack}
+              </p>
+              <p className="mb-4 text-lg line-clamp-6">{project.description}</p>
+              <div className="flex space-x-4">
                 <a
                   href={project.link}
                   target="_blank"
-                  rel="noopener norefferer"
-                  className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 text-sm hover:bg-gray-100 text-center"
+                  rel="noopener noreferrer"
+                  className="bg-white text-stone-900 rounded-full py-2 px-4 text-sm font-medium hover:bg-gray-200 transition-colors"
                 >
                   View on GitHub
+                </a>
+                <a
+                  href={project.demoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-stone-800 text-white rounded-full py-2 px-4 text-sm font-medium hover:bg-stone-700 transition-colors border border-stone-600"
+                >
+                  Live Demo
                 </a>
               </div>
             </div>
