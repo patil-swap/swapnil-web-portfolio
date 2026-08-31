@@ -31,7 +31,7 @@ Here are some of the notable projects featured on my portfolio:
 5. **MindScribe:** An AI-powered PDF note-taking app that extracts, organizes, and enhances your study materials for smarter, faster learning
 6. **Lung and Colon Cancer Detection:** A data-driven, Jupyter Notebook project utilizing machine learning for early cancer diagnosis.
 
-You can explore these projects on my portfolio site: [swapnil.codes](https://swapnil-web-portfolio.vercel.app/)
+You can explore these projects on my portfolio site: [swapnilpatil.dev](https://swapnil-web-portfolio.vercel.app/)
 
 ## LeetCode Challenges
 
