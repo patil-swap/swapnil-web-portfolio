@@ -27,7 +27,7 @@ export const PROJECTS = [
     stack: "Next.js 14, SQLite FTS5, Groq (Llama 3), Recharts, Resend, TanStack Query",
     image: projects1,
     link: "https://github.com/patil-swap/cve_lucid",
-    demoLink: "#"
+    demoLink: "https://cvelucid.swapnilpatil.dev"
   },
   {
     name: "EasyLearn",
@@ -36,7 +36,7 @@ export const PROJECTS = [
     stack: "Next.js, FastAPI, LangChain, ChromaDB, Ollama, FlashrankRerank",
     image: projects2,
     link: "https://github.com/patil-swap/easylearn",
-    demoLink: "#"
+    demoLink: ""
   },
   {
     name: "ReelScribe",
@@ -45,7 +45,7 @@ export const PROJECTS = [
     stack: "FastAPI, Groq Whisper, Deepgram, yt-dlp",
     image: projects3,
     link: "https://github.com/patil-swap/reelscribe",
-    demoLink: "#"
+    demoLink: ""
   }
 ];
 

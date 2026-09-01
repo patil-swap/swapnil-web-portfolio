@@ -56,14 +56,16 @@ const Projects = () => {
                 >
                   View on GitHub
                 </a>
-                <a
-                  href={project.demoLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-stone-800 text-white rounded-full py-2 px-4 text-sm font-medium hover:bg-stone-700 transition-colors border border-stone-600"
-                >
-                  Live Demo
-                </a>
+                {project.demoLink && project.demoLink !== "#" && (
+                  <a
+                    href={project.demoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-stone-800 text-white rounded-full py-2 px-4 text-sm font-medium hover:bg-stone-700 transition-colors border border-stone-600"
+                  >
+                    Live Demo
+                  </a>
+                )}
               </div>
             </div>
           </motion.div>
