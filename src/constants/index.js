@@ -1,6 +1,7 @@
 import projects1 from "../assets/projects1.webp";
 import projects2 from "../assets/projects2.webp";
 import projects3 from "../assets/projects3.webp";
+import cancerDiagnosis from "../assets/cancer_diagnosis.webp";
 
 export const LINKS = [
   { href: "#work", label: "Work" },
@@ -46,6 +47,15 @@ export const PROJECTS = [
     image: projects3,
     link: "https://github.com/patil-swap/reelscribe",
     demoLink: ""
+  },
+  {
+    name: "HistoScope AI",
+    description:
+      "An automated histopathology image classification system for lung and colon cancer tissue tiles. Uses a hierarchical cascade of four binary CNN models to classify images into five diagnostic categories.",
+    stack: "PyTorch, CNN, FastAPI, Hugging Face",
+    image: cancerDiagnosis,
+    link: "https://github.com/patil-swap/Lung-Colon-Cancer-Detection",
+    demoLink: "https://histoscope.swapnilpatil.dev/"
   }
 ];
 
