@@ -37,7 +37,7 @@ export const PROJECTS = [
     stack: "Next.js, FastAPI, LangChain, ChromaDB, Ollama, FlashrankRerank",
     image: projects2,
     link: "https://github.com/patil-swap/easylearn",
-    demoLink: ""
+    demoLink: "https://easylearn.swapnilpatil.dev/"
   },
   {
     name: "ReelScribe",
