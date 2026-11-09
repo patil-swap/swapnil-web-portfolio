@@ -46,7 +46,7 @@ export const PROJECTS = [
     stack: "FastAPI, Groq Whisper, Deepgram, yt-dlp",
     image: projects3,
     link: "https://github.com/patil-swap/reelscribe",
-    demoLink: ""
+    demoLink: "https://reelscribe.swapnilpatil.dev/"
   },
   {
     name: "HistoScope AI",
